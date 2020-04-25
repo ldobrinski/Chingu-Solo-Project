@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing {
+    height: 100vh;
+    background-color: lightgray;
+}
+
+.three-box {
+    height: 100vh;
+}
+
+.two-box {
+    height: 100vh;
+    background-color: lightgray;
+}
+
+.more-info {
+    height: 100vh;
+}
+
+.four-box {
+    height: 100vh;
+    background-color: lightgray;
+}
+
+.one-box {
+    height: 100vh;
+}
+
+.contact-form {
+    height: 100vh;
+    background-color: lightgray;
+}
+
+footer {
+    height: 100vh;
+}
