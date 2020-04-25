@@ -6,7 +6,7 @@
 
 nav {
     position: fixed;
-    background-color: darkgray;
+    background-color: teal;
     top: 0;
     width: 100vw;
     text-align: center;
@@ -20,7 +20,7 @@ nav p {
 }
 
 nav p:hover {
-    background-color: teal;
+    background-color: beige;
 }
 .landing {
     display: flex;
@@ -127,10 +127,76 @@ nav p:hover {
 .four-box {
     height: 100vh;
     background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.four-box div {
+    min-height: 450px;
+    width: 400px;
+    background-color: darkgray;
+    margin: 0px 20px 0px 20px;
+    text-align: center;
+}
+
+.four-box div img {
+    width: 100%;
+}
+
+.four-box div h3 {
+    margin: 10px 0px 10px 20px;
+    text-align: left;
+}
+
+.four-box div p {
+    margin: 0px 0px 0px 20px;
+    text-align: left;
+}
+.four-box div button {
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 0px 20px 0px;
 }
 
 .one-box {
     height: 100vh;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.one-box div {
+    min-height: 450px;
+    width: 400px;
+    background-color: beige;
+    margin: 0px 20px 0px 20px;
+    text-align: center;
+}
+
+.one-box div img {
+    width: 100%;
+}
+
+.one-box div h3 {
+    margin: 10px 0px 10px 20px;
+    text-align: left;
+}
+
+.one-box div p {
+    margin: 0px 0px 0px 20px;
+    text-align: left;
+}
+.one-box div button {
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 0px 20px 0px;
 }
 
 .contact-form {
