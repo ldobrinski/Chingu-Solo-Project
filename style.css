@@ -19,7 +19,7 @@ nav p {
     display: inline-block;
     margin:10px;
     padding: 10px;
-    border: 3px solid tan;
+    border: 1px solid tan;
 }
 
 nav p:hover {
@@ -31,7 +31,7 @@ nav p:hover {
     justify-content: center;
     align-items:  center;
     height: 100vh;
-    background: url(./books.jpg); 
+    background: url(./assets/books.jpg); 
     color: white;
     background-repeat: no-repeat;
     background-position: center;
@@ -71,7 +71,7 @@ nav p:hover {
 .three-box div button {
     height: 30px;
     width: 100px;
-    background-color: white;
+    background-color: tan;
     border-radius: 5px;
     margin: 10px 0px 20px 0px;
 }
@@ -117,7 +117,7 @@ nav p:hover {
 
 .more-info {
     height: 100vh;
-    background-image: url(./greathall.jpg);
+    background-image: url(./assets/greathall.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -204,56 +204,27 @@ nav p:hover {
 }
 
 .contact-form {
+    height: 100vh;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    background-color: black;
+    color: beige;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items:  center;
-    height: 100vh;
-    color: white;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.contact-form div h2 {
-    margin: 10px 0px 10px 20px;
-    text-align: center;
-}
-
-.contact-form div p {
-    margin: 0px 0px 0px 20px;
-    text-align: cnetert;
-    overflow-wrap: break-word;
-
-
-}
-.contact-form div {
-    width: 20px
-    padding: 10px;
-    margin: 50px;
-    background-color: teal;
-    display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.container {
-    width: 10%;
-    padding: 12px;
-    background-color: teal;
-    border: 1px solid black;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+.contact-form div {
+    margin: 200px 5px 20px 5px;
+    height: 30px;
+    width: 10px;
 }
 
-.container div {
-    background-color: darkgrey;
 
-}
+
 
 footer {
     height: 100vh;
