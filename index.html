@@ -19,7 +19,7 @@
 
         <header class="landing">
             <div class="parallax"></div>
-            <h1>Lindz Web Page</h1>
+            <h1 id="homepage">Lindz Web Page</h1>
             <p>Harry Potter Website Template</p>
         </header>
 
@@ -66,8 +66,9 @@
         </section>
 
         <section class="more-info">
+            <div class="parallax"></div>
             <h3 id="services">Our Services</h3>
-            <p>Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id
+            <p>Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam.<br> Sed id
                 felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia.
                 Etiam a mi quis arcu varius condimentum.</p>
 
@@ -115,24 +116,31 @@
 
         <section class="contact-form">
             <h2 id="contact">Contact Form</h2>
-        <div>
-          <p>Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id
-             felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia.
-             Etiam a mi quis arcu varius condimentum.</p>
-          </div>
-              <form action="/action_page.php">
-                <form id="contact-form" method="post" action=""></form>
-                     <input type="text" id="name" name="name" placeholder="Name">
-                     <input type="text" id="email" name="email" placeholder="Email">
-                    <input type="text" id="subject" name="subject" placeholder="Subject">     
-                   <textarea id="comments" name="comments" placeholder="Your message here..." style="height:200px"></textarea>
-                   <input type="submit" value="Send">
-                 </form>      
-             
+            <div>
+                <p>Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id
+                felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia.
+                Etiam a mi quis arcu varius condimentum.</p>
+            </div>
+            <form>
+                <div class="test">
+                    <div class="testOne">
+                        <input type="text" id="name" name="name" placeholder="Name">
+                        <br>
+                        <input type="text" id="email" name="email" placeholder="Email">
+                        <br>
+                        <input type="text" id="subject" name="subject" placeholder="Subject"> 
+                    </div>
+                    <div class="testTwo">
+                        <textarea id="comments" name="comments" placeholder="Your message here..." style="height:200px"></textarea>
+                    <br>
+                        <input type="submit" value="Send">
+                    </div>
+                </div>
+            </form> 
         </section>
 
         <footer>
-
+            <p>Developer Info: github:ldobrinski </p>
         </footer>
 
 

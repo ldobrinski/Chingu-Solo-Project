@@ -34,7 +34,7 @@ nav p:hover {
     flex-direction: column;
     justify-content: center;
     align-items:  center;
-    height: 800px;
+    height: 850px;
     background: url(./assets/books.jpg); 
     color: white;
     background-repeat: no-repeat;
@@ -42,6 +42,7 @@ nav p:hover {
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Acme' , sans-serif;
+    font-size: 30px;
 }
 
 .three-box {
@@ -49,18 +50,16 @@ nav p:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: tan;
-    border: dotted;
+    height: 600px;
+    background-color: darkgray;
 }
 
 .three-box div {
     height: 500px;
     width: 400px;
-    background-color: darkgrey;
+    background-color: lightgray;
     margin: 0px 10px 0px 10px;
     text-align: center;
-    border: solid 3px;
 }
 
 .three-box div img {
@@ -77,6 +76,8 @@ nav p:hover {
 .three-box div p {
     margin: 0px 0px 0px 20px;
     text-align: left;
+    font-family: 'Acme' , sans-serif;
+    font-size: 16px;
 }
 
 .three-box div button {
@@ -84,7 +85,7 @@ nav p:hover {
     width: 125px;
     background-color: tan;
     border-radius: 5px;
-    margin: 10px 0px 20px 0px;
+    margin: 40px 40px 40px 40px;
 }
 
 .two-box {
@@ -92,18 +93,17 @@ nav p:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 800px;
     background-color: darkgrey;
 }
 
 .two-box div {
     min-height: 450px;
-    width: 400px;
+    width: 600px;
     padding: 0px;
     background-color: lightgray;
     margin: 0px 60px 0px 60px;
     text-align: center;
-    border: solid 3px;
 }
 
 .two-box div img {
@@ -112,14 +112,17 @@ nav p:hover {
 }
 
 .two-box div h3 {
-    text-align: left;
+    text-align: center;
     font-family: 'Acme' , sans-serif;
+    margin: 10px 0px 10px 0px;
 }
 
 .two-box div p {
     margin: 10px 0px 10px 0px;
     text-align: left;
     padding: 20px;
+    font-family: 'Acme' , sans-serif;
+    font-size: 16px;
 }
 
 .two-box div button {
@@ -145,22 +148,32 @@ nav p:hover {
     font-family: 'Acme' , sans-serif;
 }
 
+.more-info h3 {
+    font-size: 30px;
+}
+
+.more-info div p {
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    word-wrap: break-word;
+
+}
+
 .four-box {
-    height: 100vh;
+    height: 600px;
     background-color: lightgray;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: dotted;
 }
 .four-box div {
-    height: 500px;
+    height: 450px;
     width: 300px;
     background-color: darkgray;
     margin: 0px 20px 0px 20px;
     text-align: center;
-    border: solid 3px;
 }
 
 .four-box div img {
@@ -174,20 +187,22 @@ nav p:hover {
 }
 
 .four-box div p {
-    margin: 0px 0px 0px 20px;
+    margin: 20px 20px 20px 20px;
     text-align: left;
+    font-size: 20px;
 }
+
 .four-box div button {
-    height: 30px;
-    width: 100px;
+    height: 40px;
+    width: 120px;
     background-color: tan;
     border-radius: 5px;
     margin: 10px 0px 20px 0px;
 }
 
 .one-box {
-    height: 100vh;
-    background-color: darkgray;
+    height: 1050px;
+    background-color: lightgray;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -210,20 +225,20 @@ nav p:hover {
     margin: 10px 0px 10px 20px;
     text-align: left;
     font-family: 'Acme' , sans-serif;
+    padding: 2%;
 }
 
 .one-box div p {
-    margin: 0px 0px 0px 20px;
     text-align: left;
     font-family: 'Acme' , sans-serif;
-
+    padding: 2%;
 }
 .one-box div button {
-    height: 30px;
-    width: 100px;
+    height: 50px;
+    width: 150px;
     background-color: tan;
     border-radius: 5px;
-    margin: 10px 0px 20px 0px;
+    margin: 40px 0px 20px 20px;
 }
 
 .contact-form {
@@ -237,15 +252,99 @@ nav p:hover {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
     font-family: 'Acme' , sans-serif;
+    color: black;
 }
+
 .contact-form h2 {
     text-align: center;
     color: white;
+    font-size: 40px;
+}
+
+.contact-form p {
+    height: 100px;
+    width: 670px;
+    justify-content: center;
+    background-color: lightgray;
+    color: black;
+    opacity: 0.5;
+    padding: 15px;
+    margin-left: 0%;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.test {
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+.testOne {
+    height: 250px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    margin: 5px;
+    border-radius: 5px 25px 25px 0px;
+}
+
+.testTwo {
+    height: 240px;
+    width: 355px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+
+input[type=text] { 
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-align: center;
+    opacity: 0.5;
+}
+
+textarea {
+    width: 342px;
+    border-radius: 5px;
+    border: 2px solid black;
 }
 
 
+input[type=button], input[type=submit], input[type=reset] {
+    width: 30%;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+/*.contact-form div p {
+    text-align: center
+    color: black;
+    opacity: 0.5%;
+}
 
 .contact-form div {
     width: 40%;
@@ -261,11 +360,11 @@ nav p:hover {
     color: black;
 }
 
-input {
+.input {
     width: 10%;
-    height: 10px;
-    padding: 12px 20px;
-    box-sizing: border-box;
+    height:10px;
+    padding: 12px 20pxL
+     box-sizing: border-box;
     border: 2px solid white;
     border-radius: 4px;
     background-color: lightgray;
@@ -282,7 +381,7 @@ textarea {
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
-    border: 2px solid white;
+      border: 2px solid white;
     border-radius: 4px;
     background-color: lightgray;
     opacity: 0.5;
@@ -301,8 +400,16 @@ input[type=button], input[type=submit], input[type=reset] {
     cursor: pointer;
     border-radius: 5px;
 }
+*/
+
+
 
 }
 footer {
-    height: 100vh;
+    height: 40px;
+    background-color: beige;
+    width: 100vw;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
