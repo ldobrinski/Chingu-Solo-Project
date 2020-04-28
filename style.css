@@ -12,7 +12,6 @@ nav {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
-    
 }
 
 nav p {
@@ -20,11 +19,15 @@ nav p {
     margin:10px;
     padding: 10px;
     border: 1px solid tan;
+    color: black;
 }
 
 nav p:hover {
     background-color: grey;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+
 .landing {
     display: flex;
     flex-direction: column;
@@ -36,6 +39,7 @@ nav p:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    font-family: 'Acme' , sans-serif;
 }
 
 .three-box {
@@ -44,23 +48,28 @@ nav p:hover {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: tan;
+    border: dotted;
 }
 
 .three-box div {
-    min-height: 450px;
+    height: 500px;
     width: 400px;
-    background-color: lightgray;
-    margin: 0px 20px 0px 20px;
+    background-color: darkgrey;
+    margin: 0px 10px 0px 10px;
     text-align: center;
+    border: solid 3px;
 }
 
 .three-box div img {
     width: 100%;
 }
 
+
 .three-box div h3 {
     margin: 10px 0px 10px 20px;
     text-align: left;
+    font-family: 'Acme' , sans-serif;
 }
 
 .three-box div p {
@@ -69,8 +78,8 @@ nav p:hover {
 }
 
 .three-box div button {
-    height: 30px;
-    width: 100px;
+    height: 45px;
+    width: 125px;
     background-color: tan;
     border-radius: 5px;
     margin: 10px 0px 20px 0px;
@@ -82,14 +91,17 @@ nav p:hover {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: darkgrey;
 }
 
 .two-box div {
     min-height: 450px;
     width: 400px;
+    padding: 0px;
     background-color: lightgray;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 60px 0px 60px;
     text-align: center;
+    border: solid 3px;
 }
 
 .two-box div img {
@@ -98,26 +110,27 @@ nav p:hover {
 }
 
 .two-box div h3 {
-    margin: 10px 0px 10px 20px;
     text-align: left;
+    font-family: 'Acme' , sans-serif;
 }
 
 .two-box div p {
-    margin: 0px 0px 0px 20px;
+    margin: 10px 0px 10px 0px;
     text-align: left;
+    padding: 20px;
 }
 
 .two-box div button {
-    height: 30px;
-    width: 100px;
-    background-color: white;
+    height: 45px;
+    width: 125px;
+    background-color: tan;
     border-radius: 5px;
-    margin: 10px 0px 20px 0px;
+    margin: 10px 0px 10px 20px;
 }
 
 .more-info {
     height: 100vh;
-    background-image: url(./assets/greathall.jpg);
+    background-image: url(./assets/hogwarts-wallpaper.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -126,6 +139,7 @@ nav p:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Acme' , sans-serif;
 }
 
 .four-box {
@@ -135,13 +149,15 @@ nav p:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border: dotted;
 }
 .four-box div {
-    min-height: 450px;
-    width: 400px;
+    height: 500px;
+    width: 300px;
     background-color: darkgray;
     margin: 0px 20px 0px 20px;
     text-align: center;
+    border: solid 3px;
 }
 
 .four-box div img {
@@ -151,6 +167,7 @@ nav p:hover {
 .four-box div h3 {
     margin: 10px 0px 10px 20px;
     text-align: left;
+    font-family: 'Acme' , sans-serif;
 }
 
 .four-box div p {
@@ -160,7 +177,7 @@ nav p:hover {
 .four-box div button {
     height: 30px;
     width: 100px;
-    background-color: white;
+    background-color: tan;
     border-radius: 5px;
     margin: 10px 0px 20px 0px;
 }
@@ -189,43 +206,101 @@ nav p:hover {
 .one-box div h3 {
     margin: 10px 0px 10px 20px;
     text-align: left;
+    font-family: 'Acme' , sans-serif;
 }
 
 .one-box div p {
     margin: 0px 0px 0px 20px;
     text-align: left;
+    font-family: 'Acme' , sans-serif;
+
 }
 .one-box div button {
     height: 30px;
     width: 100px;
-    background-color: lightgray;
+    background-color: tan;
     border-radius: 5px;
     margin: 10px 0px 20px 0px;
 }
 
 .contact-form {
-    height: 100vh;
-    background-image: url();
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: cover;
-    background-color: black;
-    color: beige;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    background: url(./assets/doby.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Acme' , sans-serif;
 }
+.contact-form h2 {
+    text-align: center;
+    color: white;
+}
+
+
 
 .contact-form div {
-    margin: 200px 5px 20px 5px;
-    height: 30px;
-    width: 10px;
+    width: 40%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: lightgray;
+    opacity: 0.5;
+    font-size: 16px;
+    resize: none;
+    color: black;
 }
 
+input {
+    width: 10%;
+    height: 10px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: lightgray;
+    opacity: 0.5;
+    font-size: 16px;
+    resize: none;
+    color: black;
+    justify-content: left;
+    align-items: left;
+}
 
+textarea {
+    width: 15%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: lightgray;
+    opacity: 0.5;
+    font-size: 16px;
+    resize: none;
+    color: black;
+}
 
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: rgb(3, 3, 3);
+    border: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
 
+}
 footer {
     height: 100vh;
 }
