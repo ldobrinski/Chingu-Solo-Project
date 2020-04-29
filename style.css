@@ -156,7 +156,7 @@ nav p:hover {
     font-size: 16px;
     text-align: center;
     vertical-align: middle;
-    word-wrap: break-word;
+    overflow-wrap: break-word;
 
 }
 
@@ -333,81 +333,12 @@ input[type=button], input[type=submit], input[type=reset] {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
+    hover: 
 }
 
-
-
-
-
-
-/*.contact-form div p {
-    text-align: center
-    color: black;
-    opacity: 0.5%;
-}
-
-.contact-form div {
-    width: 40%;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid white;
-    border-radius: 4px;
-    background-color: lightgray;
-    opacity: 0.5;
-    font-size: 16px;
-    resize: none;
-    color: black;
-}
-
-.input {
-    width: 10%;
-    height:10px;
-    padding: 12px 20pxL
-     box-sizing: border-box;
-    border: 2px solid white;
-    border-radius: 4px;
-    background-color: lightgray;
-    opacity: 0.5;
-    font-size: 16px;
-    resize: none;
-    color: black;
-    justify-content: left;
-    align-items: left;
-}
-
-textarea {
-    width: 15%;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-      border: 2px solid white;
-    border-radius: 4px;
-    background-color: lightgray;
-    opacity: 0.5;
-    font-size: 16px;
-    resize: none;
-    color: black;
-}
-
-input[type=button], input[type=submit], input[type=reset] {
-    background-color: rgb(3, 3, 3);
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-*/
-
-
-
-}
 footer {
     height: 40px;
-    background-color: beige;
+    background-color: lightgray;
     width: 100vw;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
